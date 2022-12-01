@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hallowichig0.github.io
+
+# Sitemaps
+Sitemap: https://hallowichig0.github.io/sitemap.xml
