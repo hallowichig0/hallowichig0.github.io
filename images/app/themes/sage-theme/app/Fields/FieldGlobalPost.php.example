@@ -1,0 +1,37 @@
+<?php
+
+namespace App\Fields;
+
+use Log1x\AcfComposer\Field;
+use StoutLogic\AcfBuilder\FieldsBuilder;
+
+class FieldGlobalPost extends Field
+{
+    /**
+     * The field group.
+     *
+     * @return array
+     */
+    public function fields()
+    {
+        $fieldGlobalPost = new FieldsBuilder('feature', [
+            'key' => 'global_post',
+            'position' => 'acf_after_title',
+            'menu_order' => 0,
+            'label_placement' => 'top',
+            'style' => 'default',
+            'active' => true,
+        ]);
+
+        $fieldGlobalPost
+            ->setLocation('post_type', '==', 'post');
+
+        $fieldGlobalPost
+            ->addImage('post_thumbnail_field', [
+                'label' =>  'Thumbnail',
+                'required'  => 1,
+            ]);
+
+        return $fieldGlobalPost->build();
+    }
+}

@@ -1,0 +1,85 @@
+0000.008 () Opened log file at time: Tue, 22 Nov 2022 08:37:25 +0000 on http://jegson.lndo.site/wp
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 8.1.10 (fpm-fcgi, Linux ab395a895afe 5.15.0-53-generic #59-Ubuntu SMP Mon Oct 17 18:53:30 UTC 2022 x86_64) MySQL: 10.3.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: nginx/1.17.10 safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 3.7M | 6M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 () Free space on disk containing Updraft's temporary directory: 495888.7 MB
+0000.021 () Restore setup, now closing connection and starting restore over AJAX.
+0000.004 () Opened log file at time: Tue, 22 Nov 2022 08:37:26 +0000 on http://jegson.lndo.site/wp
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 8.1.10 (fpm-fcgi, Linux ab395a895afe 5.15.0-53-generic #59-Ubuntu SMP Mon Oct 17 18:53:30 UTC 2022 x86_64) MySQL: 10.3.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: nginx/1.17.10 safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 3.3M | 4M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 495887.8 MB
+0000.005 () Ensuring WP_Filesystem is setup for a restore
+0000.005 () WP_Filesystem is setup and ready for a restore
+0000.010 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.010 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.011 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.013 () Entity: db
+0000.013 () restore_backup(backup_file=backup_2022-11-22-0723_Jegson_6d44d8c95a73-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.014 () Unpacking backup... (backup_2022-11-22-0723_Jegson_6d44d8c95a73-db.gz, 0.2 Mb)
+0000.014 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.014 () Database successfully unpacked
+0000.014 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.014 () Using direct MySQL access; value of use_mysqli is: 1
+0000.015 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.054 () Max packet size: 32 MB
+0000.054 () Entering maintenance mode
+0000.054 () Enabling Maintenance mode&#8230;
+0000.061 () Backup of: http://sage-boiler.lndo.site/wp
+0000.072 () Site home: http://sage-boiler.lndo.site
+0000.072 () Content URL: http://sage-boiler.lndo.site/app
+0000.072 () Uploads URL: http://sage-boiler.lndo.site/app/uploads
+0000.072 () Old table prefix: wp_
+0000.073 () Site information: multisite=0
+0000.073 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.073 () New table prefix: xg_
+0000.077 () Processing table (InnoDB): wp_options - will restore as: xg_options
+0000.183 () Atomic restore: dropping original table (wp_options)
+0000.190 () Atomic restore: renaming new table (xg_options) to final table name (wp_options)
+0000.199 () Restoring prior UD configuration (table: wp_options; keys: 98)
+0000.290 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.290 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.290 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.290 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.290 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.290 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.309 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.318 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.320 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, /app/web/app/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.365 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, /app/web/app/plugins/updraftplus/options.php)
+0000.366 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, /app/web/app/plugins/updraftplus/options.php)
+0000.454 () Processing table (InnoDB): wp_users - will restore as: xg_users
+0000.478 () Atomic restore: dropping original table (wp_users)
+0000.485 () Atomic restore: renaming new table (xg_users) to final table name (wp_users)
+0000.495 () Processing table (InnoDB): wp_usermeta - will restore as: xg_usermeta
+0000.526 () Atomic restore: dropping original table (wp_usermeta)
+0000.535 () Atomic restore: renaming new table (xg_usermeta) to final table name (wp_usermeta)
+0000.548 () Processing table (InnoDB): wp_commentmeta - will restore as: xg_commentmeta
+0000.574 () Atomic restore: dropping original table (wp_commentmeta)
+0000.582 () Atomic restore: renaming new table (xg_commentmeta) to final table name (wp_commentmeta)
+0000.590 () Processing table (InnoDB): wp_comments - will restore as: xg_comments
+0000.620 () Atomic restore: dropping original table (wp_comments)
+0000.626 () Atomic restore: renaming new table (xg_comments) to final table name (wp_comments)
+0000.633 () Processing table (InnoDB): wp_links - will restore as: xg_links
+0000.651 () Atomic restore: dropping original table (wp_links)
+0000.657 () Atomic restore: renaming new table (xg_links) to final table name (wp_links)
+0000.667 () Processing table (InnoDB): wp_postmeta - will restore as: xg_postmeta
+0000.691 () Atomic restore: dropping original table (wp_postmeta)
+0000.697 () Atomic restore: renaming new table (xg_postmeta) to final table name (wp_postmeta)
+0000.707 () Processing table (InnoDB): wp_posts - will restore as: xg_posts
+0000.735 () Atomic restore: dropping original table (wp_posts)
+0000.741 () Atomic restore: renaming new table (xg_posts) to final table name (wp_posts)
+0000.751 () Processing table (InnoDB): wp_term_relationships - will restore as: xg_term_relationships
+0000.771 () Atomic restore: dropping original table (wp_term_relationships)
+0000.778 () Atomic restore: renaming new table (xg_term_relationships) to final table name (wp_term_relationships)
+0000.786 () Processing table (InnoDB): wp_term_taxonomy - will restore as: xg_term_taxonomy
+0000.811 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.818 () Atomic restore: renaming new table (xg_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.828 () Processing table (InnoDB): wp_termmeta - will restore as: xg_termmeta
+0000.847 () Atomic restore: dropping original table (wp_termmeta)
+0000.853 () Atomic restore: renaming new table (xg_termmeta) to final table name (wp_termmeta)
+0000.863 () Processing table (InnoDB): wp_terms - will restore as: xg_terms
+0000.883 () Unlocking database and leaving maintenance mode
+0000.883 () Disabling Maintenance mode&#8230;
+0000.883 () Atomic restore: dropping original table (wp_terms)
+0000.889 () Atomic restore: renaming new table (xg_terms) to final table name (wp_terms)
+0000.899 () Finished: lines processed: 43 in 0.88 seconds
+0000.899 () Cleaning up rubbish...
+0000.915 () Restore successful!
+0000.915 () Restore successful

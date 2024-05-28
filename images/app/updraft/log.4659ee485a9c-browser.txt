@@ -1,0 +1,69 @@
+0000.006 (R) [notice] Looking for db archive: file name: backup_2024-04-09-1423_Jegson_d96fc3adbf2e-db.gz
+0000.006 (R) [notice] Archive is expected to be size: 325.5 KB: OK
+0000.008 (R) [notice] Unpacking backup... (backup_2024-04-09-1423_Jegson_d96fc3adbf2e-db.gz, 0.3 Mb)
+0000.008 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.026 (R) [notice] Enabling Maintenance mode&#8230;
+0000.030 (R) [notice] Backup of: http://jegson.lndo.site/wp
+0000.031 (R) [notice] Site home: http://jegson.lndo.site
+0000.031 (R) [notice] Content URL: http://jegson.lndo.site/app
+0000.031 (R) [notice] Uploads URL: http://jegson.lndo.site/app/uploads
+0000.031 (R) [notice] Old table prefix: wp_
+0000.031 (R) [notice] Site information: multisite = 0
+0000.031 (R) [notice] Site information: sql_mode = ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.031 (R) [notice] New table prefix: qh_
+0000.033 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: qh_options
+0000.098 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.102 (R) [notice] Atomic restore: renaming new table (qh_options) to final table name (wp_options)
+0000.114 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: qh_users
+0000.126 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.129 (R) [notice] Atomic restore: renaming new table (qh_users) to final table name (wp_users)
+0000.132 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: qh_usermeta
+0000.142 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.144 (R) [notice] Atomic restore: renaming new table (qh_usermeta) to final table name (wp_usermeta)
+0000.147 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: qh_commentmeta
+0000.155 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.157 (R) [notice] Atomic restore: renaming new table (qh_commentmeta) to final table name (wp_commentmeta)
+0000.160 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: qh_comments
+0000.172 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.175 (R) [notice] Atomic restore: renaming new table (qh_comments) to final table name (wp_comments)
+0000.179 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: qh_links
+0000.187 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.189 (R) [notice] Atomic restore: renaming new table (qh_links) to final table name (wp_links)
+0000.192 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: qh_postmeta
+0000.516 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.520 (R) [notice] Atomic restore: renaming new table (qh_postmeta) to final table name (wp_postmeta)
+0000.524 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: qh_posts
+0000.537 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0000.539 (R) [notice] Atomic restore: renaming new table (qh_posts) to final table name (wp_posts)
+0000.543 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: qh_term_relationships
+0000.552 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0000.555 (R) [notice] Atomic restore: renaming new table (qh_term_relationships) to final table name (wp_term_relationships)
+0000.557 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: qh_term_taxonomy
+0000.570 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0000.573 (R) [notice] Atomic restore: renaming new table (qh_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.577 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: qh_termmeta
+0000.585 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0000.588 (R) [notice] Atomic restore: renaming new table (qh_termmeta) to final table name (wp_termmeta)
+0000.591 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: qh_terms
+0000.600 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0000.603 (R) [notice] Atomic restore: renaming new table (qh_terms) to final table name (wp_terms)
+0000.606 (R) [notice] Processing table (InnoDB):  wp_yoast_indexable - will restore as: qh_yoast_indexable
+0000.622 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable)
+0000.626 (R) [notice] Atomic restore: renaming new table (qh_yoast_indexable) to final table name (wp_yoast_indexable)
+0000.630 (R) [notice] Processing table (InnoDB):  wp_yoast_indexable_hierarchy - will restore as: qh_yoast_indexable_hierarchy
+0000.640 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0000.643 (R) [notice] Database queries processed: 50 in 0.63 seconds
+0000.643 (R) [notice] Atomic restore: renaming new table (qh_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0000.647 (R) [notice] Processing table (InnoDB):  wp_yoast_migrations - will restore as: qh_yoast_migrations
+0000.656 (R) [notice] Atomic restore: dropping original table (wp_yoast_migrations)
+0000.659 (R) [notice] Atomic restore: renaming new table (qh_yoast_migrations) to final table name (wp_yoast_migrations)
+0000.662 (R) [notice] Processing table (InnoDB):  wp_yoast_primary_term - will restore as: qh_yoast_primary_term
+0000.671 (R) [notice] Atomic restore: dropping original table (wp_yoast_primary_term)
+0000.673 (R) [notice] Atomic restore: renaming new table (qh_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0000.676 (R) [notice] Processing table (InnoDB):  wp_yoast_seo_links - will restore as: qh_yoast_seo_links
+0000.707 (R) [notice] Disabling Maintenance mode&#8230;
+0000.707 (R) [notice] Atomic restore: dropping original table (wp_yoast_seo_links)
+0000.710 (R) [notice] Atomic restore: renaming new table (qh_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0000.713 (R) [notice] Finished: lines processed: 59 in 0.70 seconds
+0000.714 (R) [notice] Cleaning up rubbish...
+0000.724 (R) [notice] Restore successful!

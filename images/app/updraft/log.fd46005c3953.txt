@@ -1,0 +1,90 @@
+0000.007 () Opened log file at time: Mon, 04 Sep 2023 17:25:49 +0000 on http://jegson.lndo.site/wp
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 8.1.18 (fpm-fcgi, Linux 1635f2b0c807 6.2.0-31-generic #31~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Aug 16 13:45:26 UTC 2 x86_64) MySQL: 10.3.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: nginx/1.17.10 safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 3.7M | 6M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 257579.9 MB
+0000.017 () Restore setup, now closing connection and starting restore over AJAX.
+0000.006 () Opened log file at time: Mon, 04 Sep 2023 17:25:49 +0000 on http://jegson.lndo.site/wp
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.23 WP: 6.1.1 PHP: 8.1.18 (fpm-fcgi, Linux 1635f2b0c807 6.2.0-31-generic #31~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Aug 16 13:45:26 UTC 2 x86_64) MySQL: 10.3.27-MariaDB (max packet size=33554432) WPLANG: en_US Server: nginx/1.17.10 safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 3.3M | 4M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 257578.8 MB
+0000.007 () Ensuring WP_Filesystem is setup for a restore
+0000.007 () WP_Filesystem is setup and ready for a restore
+0000.009 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.009 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.010 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.011 () Entity: db
+0000.011 () restore_backup(backup_file=backup_2022-11-29-1337_Jegson_66095850b7fa-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.011 () Unpacking backup... (backup_2022-11-29-1337_Jegson_66095850b7fa-db.gz, 0.3 Mb)
+0000.011 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.012 () Database successfully unpacked
+0000.012 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.012 () Using direct MySQL access; value of use_mysqli is: 1
+0000.012 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.030 () Max packet size: 32 MB
+0000.030 () Entering maintenance mode
+0000.030 () Enabling Maintenance mode&#8230;
+0000.033 () Backup of: http://jegson.lndo.site/wp
+0000.034 () Site home: http://jegson.lndo.site
+0000.034 () Content URL: http://jegson.lndo.site/app
+0000.034 () Uploads URL: http://jegson.lndo.site/app/uploads
+0000.034 () Old table prefix: wp_
+0000.034 () Site information: multisite=0
+0000.034 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.035 () New table prefix: b5_
+0000.036 () Processing table (InnoDB): wp_options - will restore as: b5_options
+0000.105 () Atomic restore: dropping original table (wp_options)
+0000.108 () Atomic restore: renaming new table (b5_options) to final table name (wp_options)
+0000.112 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.120 () Processing table (InnoDB): wp_users - will restore as: b5_users
+0000.132 () Atomic restore: dropping original table (wp_users)
+0000.135 () Atomic restore: renaming new table (b5_users) to final table name (wp_users)
+0000.138 () Processing table (InnoDB): wp_usermeta - will restore as: b5_usermeta
+0000.148 () Atomic restore: dropping original table (wp_usermeta)
+0000.151 () Atomic restore: renaming new table (b5_usermeta) to final table name (wp_usermeta)
+0000.154 () Processing table (InnoDB): wp_commentmeta - will restore as: b5_commentmeta
+0000.163 () Atomic restore: dropping original table (wp_commentmeta)
+0000.165 () Atomic restore: renaming new table (b5_commentmeta) to final table name (wp_commentmeta)
+0000.168 () Processing table (InnoDB): wp_comments - will restore as: b5_comments
+0000.180 () Atomic restore: dropping original table (wp_comments)
+0000.182 () Atomic restore: renaming new table (b5_comments) to final table name (wp_comments)
+0000.195 () Processing table (InnoDB): wp_links - will restore as: b5_links
+0000.203 () Atomic restore: dropping original table (wp_links)
+0000.205 () Atomic restore: renaming new table (b5_links) to final table name (wp_links)
+0000.208 () Processing table (InnoDB): wp_postmeta - will restore as: b5_postmeta
+0000.392 () Atomic restore: dropping original table (wp_postmeta)
+0000.395 () Atomic restore: renaming new table (b5_postmeta) to final table name (wp_postmeta)
+0000.400 () Processing table (InnoDB): wp_posts - will restore as: b5_posts
+0000.415 () Atomic restore: dropping original table (wp_posts)
+0000.419 () Atomic restore: renaming new table (b5_posts) to final table name (wp_posts)
+0000.422 () Processing table (InnoDB): wp_term_relationships - will restore as: b5_term_relationships
+0000.431 () Atomic restore: dropping original table (wp_term_relationships)
+0000.434 () Atomic restore: renaming new table (b5_term_relationships) to final table name (wp_term_relationships)
+0000.438 () Processing table (InnoDB): wp_term_taxonomy - will restore as: b5_term_taxonomy
+0000.449 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.451 () Atomic restore: renaming new table (b5_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.455 () Processing table (InnoDB): wp_termmeta - will restore as: b5_termmeta
+0000.463 () Atomic restore: dropping original table (wp_termmeta)
+0000.465 () Atomic restore: renaming new table (b5_termmeta) to final table name (wp_termmeta)
+0000.469 () Processing table (InnoDB): wp_terms - will restore as: b5_terms
+0000.477 () Atomic restore: dropping original table (wp_terms)
+0000.480 () Atomic restore: renaming new table (b5_terms) to final table name (wp_terms)
+0000.484 () Processing table (InnoDB): wp_yoast_indexable - will restore as: b5_yoast_indexable
+0000.499 () Atomic restore: dropping original table (wp_yoast_indexable)
+0000.499 () Atomic restore: renaming new table (b5_yoast_indexable) to final table name (wp_yoast_indexable)
+0000.502 () Processing table (InnoDB): wp_yoast_indexable_hierarchy - will restore as: b5_yoast_indexable_hierarchy
+0000.513 () Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0000.513 () Atomic restore: renaming new table (b5_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0000.516 () Processing table (InnoDB): wp_yoast_migrations - will restore as: b5_yoast_migrations
+0000.523 () Database queries processed: 50 in 0.51 seconds
+0000.525 () Atomic restore: dropping original table (wp_yoast_migrations)
+0000.525 () Atomic restore: renaming new table (b5_yoast_migrations) to final table name (wp_yoast_migrations)
+0000.528 () Processing table (InnoDB): wp_yoast_primary_term - will restore as: b5_yoast_primary_term
+0000.536 () Atomic restore: dropping original table (wp_yoast_primary_term)
+0000.536 () Atomic restore: renaming new table (b5_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0000.539 () Processing table (InnoDB): wp_yoast_seo_links - will restore as: b5_yoast_seo_links
+0000.562 () Unlocking database and leaving maintenance mode
+0000.562 () Disabling Maintenance mode&#8230;
+0000.563 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0000.563 () Atomic restore: renaming new table (b5_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0000.566 () Finished: lines processed: 58 in 0.55 seconds
+0000.566 () Cleaning up rubbish...
+0000.577 () Restore successful!
+0000.577 () Restore successful

@@ -1,0 +1,43 @@
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-svg-core/styles";
+@import "~slick-carousel/slick/slick";
+@import "~venobox/dist/venobox";
+// @import "~aos/dist/aos";
+// @import "~mmenu-js/dist/mmenu";
+
+/* Your fonts here */
+@import "partial/fonts";
+
+/* Import theme styles */
+@import "partial/variables";
+@import "partial/mixin";
+@import "partial/animations";
+@import "partial/global";
+@import "partial/admin";
+@import "partial/header";
+@import "partial/footer";
+@import "partial/overrides";
+@import "partial/comments";
+
+/* Your components */
+@import "components/plain";
+@import "components/blur";
+@import "components/background-blur";
+@import "components/buttons";
+
+/* Your posts style here */
+@import "posts/single"; // single post style
+
+/* Your pages style here */
+@import "pages/home";
+@import "pages/blog";
+@import "pages/page";
+
+/* Your woocommerce style here */
+// @import "woocommerce/woocommerce"; // _woocommerce.scss

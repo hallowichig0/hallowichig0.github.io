@@ -1,0 +1,10 @@
+/node_modules
+/vendor
+/public
+.budfiles
+npm-debug.log
+yarn-error.log
+
+# Mac OS autogenerate files
+.DS_Store
+**/.DS_Store

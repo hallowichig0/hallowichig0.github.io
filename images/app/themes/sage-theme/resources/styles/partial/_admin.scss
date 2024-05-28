@@ -1,0 +1,20 @@
+/** Use this style when you are logged in */
+.admin-bar {
+  .nav-header {
+    margin-top: 32px;
+  }
+  .sticky-header {
+    top: 32px;
+  }
+}
+
+@media screen and (max-width: 782px) {
+  .admin-bar {
+    .nav-header {
+      margin-top: 46px;
+    }
+    .sticky-header {
+      top: 46px;
+    }
+  }
+}

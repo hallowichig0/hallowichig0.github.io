@@ -1,0 +1,17 @@
+.background-blur {
+  overflow: hidden;
+  -webkit-filter: blur(30px);
+  filter: blur(30px);
+  -webkit-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  transition: all ease .3s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &.lazyloaded {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+  }
+}
