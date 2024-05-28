@@ -1,7 +1,0 @@
-[28-May-2024 02:38:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'database_user'@'172.28.0.2' (using password: YES) in /app/web/wp/wp-includes/class-wpdb.php on line 1775
-[28-May-2024 02:38:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'database_user'@'172.28.0.2' (using password: YES) in /app/web/wp/wp-includes/class-wpdb.php on line 1775
-[28-May-2024 02:42:46 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'database_user'@'172.28.0.2' (using password: YES) in /app/web/wp/wp-includes/class-wpdb.php on line 1775
-[28-May-2024 02:43:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/web/wp/wp-includes/class-wpdb.php on line 1775
-[28-May-2024 02:43:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/web/wp/wp-includes/class-wpdb.php on line 1775
-[28-May-2024 02:43:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/web/wp/wp-includes/class-wpdb.php on line 1775
-[28-May-2024 02:43:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/web/wp/wp-includes/class-wpdb.php on line 1775
